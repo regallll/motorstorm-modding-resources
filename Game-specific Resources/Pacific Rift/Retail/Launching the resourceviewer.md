@@ -1,0 +1,16 @@
+# Launching the resourceviewer
+- Unpack \PS3_GAME\USRDIR\ms2.psarc.
+- Make a folder called overrides in USRDIR.
+- Copy fonts.rpk, global.rpk, post.rpk and the scripts folder into the overrides folder, along with any RPKs you want to load.
+- Open \PS3_GAME\USRDIR\overrides\scripts\ and delete everything apart from host.lua.
+- Run resourceviewer_atg.self directly, passing the RPKs you want to load as launch parameters seperated by spaces:
+  - RPCS3:
+    - Windows: .\rpcs3.exe [PATH_TO_GAME]\PS3_GAME\USRDIR\resourceviewer_atg.self [RPKs]
+    - Linux: -
+    - macOS: -
+  - PS3:
+    - Target Manager
+- Controls:
+  - Look around: Left Stick
+  - Pan: L2 + Left Stick
+  - Zoom: Right Stick Up/Down
