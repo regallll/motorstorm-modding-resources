@@ -34,6 +34,7 @@ A very WIP set of modding resources and filetype notes for MotorStorm games.
 <ol>
 <li><a href="Game-specific%20Resources/Pacific%20Rift/Retail/A%20note%20on%20unpacking%20ms2.psarc.md">A note on unpacking ms2.psarc</a>
 <li><a href="Game-specific%20Resources/Pacific%20Rift/Retail/Bootflow%20.gui%20files%20ordered.md">Bootflow .gui files ordered</a>
+<li><a href="Game-specific%20Resources/Pacific%20Rift/Retail/Launching%20the%20resourceviewer.md">Launching the resourceviewer</a>
 <li><a href="Game-specific%20Resources/Pacific%20Rift/Retail/Required%20Databases.md">Required Databases</a>
 <li><a href="Game-specific%20Resources/Pacific%20Rift/Retail/Required%20Scripts.md">Required Scripts</a>
 <li><a href="Game-specific%20Resources/Pacific%20Rift/Retail/Unique%20Filetypes.md">Unique Filetypes</a>
