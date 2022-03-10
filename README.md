@@ -10,6 +10,9 @@ A very WIP set of modding resources and filetype notes for MotorStorm games.
 - [#🔧modding in the MotorStorm Festival Discord](https://discord.gg/msNdNaFyGU)
 - [ModNetwork](http://modnetwork.org/)
 
+## Places to get MotorStorm mods
+- [MotorStorm Mods Discord](https://discord.gg/YYCNSA7wxk)
+
 ## Contents
 <ol>
 <li><a href="README.md">README</a> (This page!)
