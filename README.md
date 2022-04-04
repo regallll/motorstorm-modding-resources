@@ -25,6 +25,7 @@ A very WIP set of modding resources and filetype notes for MotorStorm games.
 <ol>
 <li><a href="Game-specific%20Resources/Monument%20Valley">Monument Valley</a>
 <ol>
+<li><a href="Game-specific%20Resources/Monument%20Valley/All%20Livery%20Codes.md">All Livery Codes</a>
 <li><a href="Game-specific%20Resources/Monument%20Valley/Other%20Resources.md">Other Resources</a>
 </ol>
 <li><a href="Game-specific%20Resources/Pacific%20Rift">Pacific Rift</a>
