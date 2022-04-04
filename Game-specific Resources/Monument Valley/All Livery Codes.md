@@ -1,4 +1,4 @@
-# All livery codes (in 03.10, including DLC)
+# All livery codes in 03.10, including DLC
 atv01_LV01<br>
 atv01_LV02<br>
 atv01_LV03<br>
