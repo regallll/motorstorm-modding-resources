@@ -5,7 +5,7 @@
 | Characters | 256 | 256 | BC1 (DXT1) | ✔️ | \characters\
 | Character Normal Maps | 512 | 512 | BC1 (DXT1) | ✔️ | \characters\
 | Contest Gallery Images | 1280 | 720 | BC3 (DXT5) | ❌ | \gui\textureresources\guicomp.rpk
-| Contest Gallery Thumbnails | 248 | 140 | BC3 (DXT5) | ❌ | -
+| Contest Gallery Thumbnails | 248 | 140 | BC3 (DXT5) | ❌ | \gui\garage-temp-gallery-contest.gui
 | Small Microbadges | 32 | 32 | BC3 (DXT5) | ❌ | \gui\textureresources\guimicrobadges_small.rpk
 | Medium Microbadges | 64 | 64 | BC3 (DXT5) | ❌ | \gui\textureresources\guimicrobadges_medium.rpk
 | Large Microbadges | 128 | 128 | BC3 (DXT5) | ❌ | \gui\textureresources\guimicrobadges_large.rpk
