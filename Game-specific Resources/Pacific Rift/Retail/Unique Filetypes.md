@@ -23,7 +23,6 @@
 | .def | Plaintext, defines the name of the item.
 | .flw | Plaintext, related to gui.
 | .gag | Related to AI punches/insults/etc?
-| .gags | Renamed XML, related to events.
 | .gan | Renamed XML, related to levels.
 | .gpl | Related to splines.
 | .graph | Unknown, only used by surfaces.graph.
@@ -37,7 +36,6 @@
 | .nam | Plaintext, specifies sound associations for certain events (e.g. ambient sounds for tracks).
 | .nvl | Plaintext, related to levels.
 | .nvlsrc | Plaintext, related to levels.
-| .packman | Renamed XML related to events.
 | .pck | Related to shaders.
 | .reward | Plaintext, specifies rewards (e.g. when a certain Festival rank is reached).
 | .rpk | Resource PacK file; proprietary Evolution Studios archive. They seem to be pretty inconsistently structured especially between games, hence why it's hard to go into detail about it.<br><br>**Header:**<br>`45 56 4F 53 42 49 47 20 00 00 00 12 52 65 73 6F`<br>`75 72 63 65 20 50 61 63 4B 20 66 69 6C 65 00 00`<br>`XX XX 00 00 00 26 45 56 4F 53 42 49 47 20 00 01`<br><br>`EVOSBIG ....Reso`<br>`urce PacK file..`<br>`**...&EVOSBIG ..`<br><br>**Basic Structure:**<ul><li>Header, then a section of 42 bytes, of which the function is unknown.<li>Filenames start at `0x5A` and are seperated by `.` / `00`. Irrelevant to the file's function, and length will obviously vary from RPK to RPK.<li>Then, the locations of the files and some other stuff from when the developers packed the file, seperated by `.` / `00`. Also irrelevant to the file's function, and length varies between RPKs.<li>After that, some unknown data (length is different for every RPK), and then the actual packed data will begin.<li>Packed data always begins with `EVOSBIG `/ `45 56 4F 53 42 49 47 20`. The following part of the structure depends on the filetype.<ul><li>For some files (one example being plaintext files such as XML) there is a section of 12 bytes of which the function is unknown, then the filesize in bytes (displayed as a 4-byte integer) and then the actual file data will follow.<li>Some other files (such as headerless DDS files) have a section of 31 bytes, then the filesize in bytes (displayed as a 4-byte integer) and then the actual file data will follow.<li>The rest of the files use other methods which I haven't figured out yet.</ul><li>At the end, a final `EVOSBIG `/ `45 56 4F 53 42 49 47 20` followed by some more unknown data (again, length is different for every RPK).
