@@ -59,4 +59,4 @@ A very WIP set of modding resources and filetype notes for MotorStorm games.
 
 ## Credits
 - [Scirvir](https://www.youtube.com/Scirvir), for his improved method to launch the campaign in the Pacific Rift E3 Demo as well as his Lua script.
-- [SimpleImprovement](https://www.youtube.com/SimpleImprovement), for reuploading the official Sony SDK's PSARC Tool.
+- [SimpleImprovement](https://www.youtube.com/SimpleImprovement), for his TexSwap tool and for reuploading the official Sony SDK's PSARC Tool.
