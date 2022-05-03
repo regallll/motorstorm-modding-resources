@@ -1,6 +1,6 @@
 # Modifying Textures
 
-## This method is for the PS3 games only.
+## This method is for the RPK files in the PS3 games only ([video tutorial](https://youtu.be/4SSGGfZDP5c)).
 
 - First get the texture you want to edit. There are two ways of doing this:
     - **This method is only possible on RPCS3.** Rip the texture with [RenderDoc](../General%20Resources/List%20of%20Tools.md#:~:text=debugging%20on%20PC.-,RenderDoc,-%2D%20Graphics%20debugging%20on) ([video tutorial](https://youtu.be/TvdxSIbPz0w)).
