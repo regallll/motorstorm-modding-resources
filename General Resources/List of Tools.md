@@ -1,7 +1,8 @@
 # Recommended Tools
 
 ## All games
-- [Cheat Engine](https://www.cheatengine.org) - Memory editing and debugging on PC.
+- [Cheat Engine](https://www.cheatengine.org) - Memory editing and debugging on Windows and macOS.
+- [scanmem & GameConqueror](https://github.com/scanmem/scanmem) - Memory editing and debugging on Linux.
 - [RenderDoc](https://renderdoc.org/) - Graphics debugging on PC. Can be used in conjunction with an emulator to rip textures.
 - [010 Editor](https://www.sweetscape.com) - Hex editing. [HxD](https://mh-nexus.de) is a good free alternative.
 - [Raw texture previewer/converter](https://forum.xentax.com/viewtopic.php?t=16461) - Calculates headers from raw DDS data to make them easily viewable.
