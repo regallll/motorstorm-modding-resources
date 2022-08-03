@@ -6,12 +6,10 @@ A very WIP set of modding resources and filetype notes for MotorStorm games.
 - When displaying hex, full stops `.` are also used to denote null characters, and `XX` / `*` is used to show that there could be any value in these positions.
 - Assume big-endianness has been used for the PS3 games, and little-endianness for Arctic Edge, unless stated otherwise.
 
-## Places to discuss MotorStorm modding
+## Places to discuss modding and download mods
+- [MotorStorm Modding Discord](https://discord.gg/YYCNSA7wxk)
 - [#🔧modding in the MotorStorm Festival Discord](https://discord.gg/msNdNaFyGU)
 - [ModNetwork](http://modnetwork.org/)
-
-## Places to get MotorStorm mods
-- [MotorStorm Mods Discord](https://discord.gg/YYCNSA7wxk)
 
 ## Contents
 <ol>
