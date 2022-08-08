@@ -50,6 +50,7 @@ A very WIP set of modding resources and filetype notes for MotorStorm games.
 </ol>
 <li><a href="Game-specific%20Resources/Apocalypse">Apocalypse</a>
 <ol>
+<li><a href="Game-specific%20Resources/Apocalypse/How%20to%20unlock%20development%20menu.md">How to unlock development menu</a>
 <li><a href="Game-specific%20Resources/Apocalypse/Unique%20Filetypes.md">Unique Filetypes</a>
 </ol>
 </ol>
