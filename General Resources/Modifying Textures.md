@@ -3,12 +3,19 @@
 ## This method is for the RPK files in the PS3 games only ([video tutorial](https://youtu.be/4SSGGfZDP5c)).
 
 - First get the texture you want to edit. There are two ways of doing this:
-    - **This method is only possible on RPCS3.** Rip the texture with [RenderDoc](../General%20Resources/List%20of%20Tools.md#:~:text=debugging%20on%20PC.-,RenderDoc,-%2D%20Graphics%20debugging%20on) ([video tutorial](https://youtu.be/TvdxSIbPz0w)).
-    - Use the [RPK unpacker](https://github.com/regallll/motorstorm-modding-resources/blob/main/General%20Resources/List%20of%20Tools.md#:~:text=QuickBMS%20%2B%20aluigi%27s%20RPK%20Unpacker) to unpack the RPK. Go through the list of resulting files from largest to smallest, converting each one with the raw texture converter with offset `0x1B` until you find the texture you want to edit. For Pacific Rift, the [Known texture metadata](../Game-specific%20Resources/Pacific%20Rift/Retail/Known%20texture%20metadata.md) table will help greatly.
-- Edit your texture and save it as DDS, with the same metadata as your source texture. Make sure you don't overwrite your source texture. You can use [Compressonator](../General%20Resources/List%20of%20Tools.md#:~:text=them%20easily%20viewable.-,Compressonator,-%2D%20useful%20DDS%20tools) to help with this as well as the [Known texture metadata](../Game-specific%20Resources/Pacific%20Rift/Retail/Known%20texture%20metadata.md) table for Pacific Rift.
+    - **This method is only possible on RPCS3.** Rip the texture with [RenderDoc](../General%20Resources/List%20of%20Tools.md#:~:text=%2D%20Linux%20alternative.-,RenderDoc,-%2D%20Graphics%20debugging%20on) ([video tutorial](https://youtu.be/TvdxSIbPz0w)).
+    - Use the [RPK unpacker](../General%20Resources/List%20of%20Tools.md#:~:text=QuickBMS%20%2B%20aluigi%27s%20RPK%20Unpacker) to unpack the RPK. Go through the list of resulting files from largest to smallest, converting each one with the [raw texture converter](../General%20Resources/List%20of%20Tools.md#:~:text=Raw%20texture%20previewer/converter) with offset `0x1B` until you find the texture you want to edit. For Pacific Rift, the [Known texture metadata](../Game-specific%20Resources/Pacific%20Rift/Retail/Known%20texture%20metadata.md) table will help greatly.
+        - If you need to convert a lot of files quickly, put the following code in a batch file (\*.bat) and run it in the same folder as the unpacked files from the RPK and RawtexCmd.exe. It's set up for vehicle liveries, but you can adjust the values as needed for other types of textures.
+        ```
+        @echo off
+        for %%a in (*.dat) do (
+        .\RawtexCmd.exe %%a DXT1 1B 2048 1024
+        )
+        ```
+- Edit your texture and save it as DDS, with the same metadata as your source texture. Make sure you don't overwrite your source texture. You can use [Compressonator](../General%20Resources/List%20of%20Tools.md#:~:text=viewable.%20Windows%20only.-,Compressonator,-%2D%20useful%20DDS%20tools) to help with this as well as the [Known texture metadata](../Game-specific%20Resources/Pacific%20Rift/Retail/Known%20texture%20metadata.md) table for Pacific Rift.
 - Now, you need to replace the texture in the RPK. There are two ways of doing this:
     - Use [SIs_TexSwap](../General%20Resources/List%20of%20Tools.md#:~:text=RPCS3%20%2D%20PS3%20emulator.-,SIs_TexSwap,-%2D%20Small%20program%20which) and select the source texture, new texture and RPK when prompted.
-    - **This method is more complicated and involves the use of a [hex editor](../General%20Resources/List%20of%20Tools.md#:~:text=010%20Editor%20%2D%20Hex%20editing.%20HxD%20is%20a%20good%20free%20alternative.). Only use this if the first method fails:**
+    - **This method is more complicated and involves the use of a [hex editor](../General%20Resources/List%20of%20Tools.md#:~:text=010%20Editor%20%2D%20Hex,good%20free%20alternative.). Only use this if the first method fails:**
         - Open the source texture in your hex editor and copy 30-ish bytes starting from `0x80`.
         - Open the RPK in the hex editor and search for the bytes you just copied. You should now have the location of the raw DDS data in the RPK.
         - Open your edited texture in the hex editor, and select everything from `0x80` to the end.
