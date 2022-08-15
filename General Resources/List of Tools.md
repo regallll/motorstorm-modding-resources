@@ -21,7 +21,7 @@
 - [PSArcTool](https://github.com/periander/PSArcTool) - Extracts and repacks .psarc files on Windows.
   - [PS3GameExtractor](https://www.pspx.ru/forum/showthread.php?t=108199) - If PSArcTool fails, try this. Windows only.
     - [PS3GameExtractor](https://www.psx-place.com/resources/ps3-game-extractor.824/) - Older version reuploaded to PSX-Place, if you don't want to register for an account on PSPx Forum.
-  - [Sony SDK's PSARC Tool](https://disk.yandex.ru/d/iK9rk8jXieqLdw) can be used as a fallback. `psarc.exe -h` for help. Again, Windows only.
+  - [Sony SDK's PSARC Tool](https://disk.yandex.ru/d/iK9rk8jXieqLdw?ncrnd=3684) can be used as a fallback. `psarc.exe -h` for help. Again, Windows only.
 
 ## Pacific Rift only
 - [RAD Video Tools](http://www.radgametools.com/bnkdown.htm) - Converts to and from the Bink Video .bik format. Windows only.
