@@ -8,7 +8,6 @@ A very WIP set of modding resources and filetype notes for MotorStorm games.
 
 ## Places to discuss modding and download mods
 - [MotorStorm Modding Discord](https://discord.gg/YYCNSA7wxk)
-- [#🔧modding in the MotorStorm Festival Discord](https://discord.gg/msNdNaFyGU)
 - [ModNetwork](http://modnetwork.org/)
 
 ## Contents
