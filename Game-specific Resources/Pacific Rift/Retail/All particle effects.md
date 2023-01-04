@@ -849,7 +849,7 @@ lava_steam_detail5\
 lava_steam_detail6\
 lava_steam_detail7\
 lava_steam_distant\
-lava_steam_no\-nmap
+lava_steam_no-nmap\
 lavab\
 lavac\
 lavacar\
