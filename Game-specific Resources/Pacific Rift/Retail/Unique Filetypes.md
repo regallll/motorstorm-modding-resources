@@ -14,7 +14,7 @@
 | .avl | Plaintext, related to levels.
 | .brain | Related to AI.
 | .bridge | Plaintext, related to levels.
-| .cam | Some are plaintext, others are not. Specifies details of the camera panning sequence before a race.
+| .cam | Some are plaintext, others are not. Specifies the camera animation path used by the benchmark system.
 | .camerawidget | Plaintext, related to levels.
 | .cps | Renamed XML related to levels.
 | .crv | Plaintext, related to levels.

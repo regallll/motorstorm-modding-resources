@@ -9,7 +9,7 @@
 | .ait | Plaintext, related to object triggers.
 | .aps | Unknown, only used by mixtoolparamset.aps.<br><br>**Magic:**<br>`45 56 4F 53 41 50 53`<br>`EVOSAPS`
 | .audionode | Plaintext, specifies locations of audio effects within levels.
-| .cam | Some are plaintext, others are not. Specifies details of the camera panning sequence before a race.
+| .cam | Plaintext, specifies details of the camera locations in customisation.
 | .checkpoints | Renamed XML related to AI nodes.
 | .control | Plaintext, only used by editor.control. Related to GUI.
 | .dec | Plaintext, related to UV mapping.
