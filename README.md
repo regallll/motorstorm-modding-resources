@@ -2,7 +2,6 @@
 
 A very WIP set of modding resources and filetype notes for MotorStorm games.
 
-- This was all done on RPCS3. Some things may not work on real PS3s.
 - When displaying hex, full stops `.` are also used to denote null characters, and `XX` / `*` is used to show that there could be any value in these positions.
 - Assume big-endianness has been used for the PS3 games, and little-endianness for Arctic Edge, unless stated otherwise.
 
@@ -36,9 +35,9 @@ A very WIP set of modding resources and filetype notes for MotorStorm games.
 <li><a href="Game-specific%20Resources/Pacific%20Rift/Retail/A%20note%20on%20unpacking%20ms2.psarc.md">A note on unpacking PSARC files</a>
 <li><a href="Game-specific%20Resources/Pacific%20Rift/Retail/All%20particle%20effects.md">All particle effects</a>
 <li><a href="Game-specific%20Resources/Pacific%20Rift/Retail/Bootflow%20.gui%20files%20ordered.md">Bootflow .gui files ordered</a>
+<li><a href="Game-specific%20Resources/Pacific%20Rift/Retail/Game%20Config.md">Game Config</a>
 <li><a href="Game-specific%20Resources/Pacific%20Rift/Retail/Known%20texture%20metadata.md">Known texture metadata</a>
 <li><a href="Game-specific%20Resources/Pacific%20Rift/Retail/Launching%20the%20resourceviewer.md">Launching the resourceviewer</a>
-<li><a href="Game-specific%20Resources/Pacific%20Rift/Retail/Required%20Config.md">Required Config</a>
 <li><a href="Game-specific%20Resources/Pacific%20Rift/Retail/Required%20Databases.md">Required Databases</a>
 <li><a href="Game-specific%20Resources/Pacific%20Rift/Retail/Required%20Scripts.md">Required Scripts</a>
 <li><a href="Game-specific%20Resources/Pacific%20Rift/Retail/Unique%20Filetypes.md">Unique Filetypes</a>
