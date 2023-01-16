@@ -24,6 +24,14 @@ There are a few different types of game config. These must be specified in the `
   ```
 - DEVGHOSTCOPIER
 - GUI (Default)
+  ```xml
+  <?xml version="1.0" encoding="UTF-8"?>
+  <Config type="GUI" xmlns="http://tempuri.org/boost1.xsd">
+    
+      <GUIFile name=""/> <!-- Initial GUI filename including the extension e.g. filename.gui -->
+
+  </Config>
+  ```
 - MPSTRESS
 - SOAK_TEST_ONLINE_HOST
 - SOAK_TEST_RANDOM
