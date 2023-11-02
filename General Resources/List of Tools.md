@@ -28,4 +28,4 @@
 ## Arctic Edge only
 - [PPSSPP](https://www.ppsspp.org) - PSP emulator.
 - [PCSX2](https://pcsx2.net) - PS2 emulator.
-- [QuickBMS](http://aluigi.altervista.org/quickbms.htm) + [Acewell's Arctic Edge .PAK Extractor](https://forum.xentax.com/download/file.php?id=15764) - Unpacks .PAK files but cannot repack them.
+- [QuickBMS](http://aluigi.altervista.org/quickbms.htm) + [Acewell's Arctic Edge .PAK Extractor](https://gist.github.com/Scirvir/3fb1bb7286c66014cecd113812682eb9) - Unpacks .PAK files but cannot repack them.
