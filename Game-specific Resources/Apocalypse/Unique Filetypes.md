@@ -32,7 +32,7 @@
 | .pck | Related to shaders.
 | .pld | *PLantDefs file*; renamed XML, only used for plantdefs.pld.
 | .reward | Plaintext, specifies rewards (e.g. when a certain Festival rank is reached).
-| .rpk | [010 Editor Binary Template](https://github.com/Nenkai/010GameTemplates/blob/main/Evolution%20Studios/RPK_ResourcePack.bt)
+| .rpk | [010 Editor Binary Template](https://github.com/Nenkai/010GameTemplates/blob/main/Evolution%20Studios/RPK_ResourcePack.bt) by [Nenkai](https://github.com/Nenkai). Intended for Driveclub but still works to an extent with MotorStorm.
 | .sad | Unknown, only used by ms_surfaces.sad.
 | .smp | Contains multiple MP3 files seperated by `MSF MSF` / `4D 53 46 20 4D 53 46`. 
 | .splinefollowers | Renamed XML, related to tracks.
