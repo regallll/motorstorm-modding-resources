@@ -40,7 +40,7 @@
 | .packman | Renamed XML related to AI pace in events.
 | .pck | Related to shaders.
 | .reward | Plaintext, specifies rewards (e.g. when a certain Festival rank is reached).
-| .rpk | [010 Editor Binary Template](https://github.com/Nenkai/010GameTemplates/blob/main/Evolution%20Studios/RPK_ResourcePack.bt)
+| .rpk | [010 Editor Binary Template](https://github.com/Nenkai/010GameTemplates/blob/main/Evolution%20Studios/RPK_ResourcePack.bt) by [Nenkai](https://github.com/Nenkai). Intended for Driveclub but still works to an extent with MotorStorm.
 | .rpv | Related to levels.
 | .sad | Unknown, only used by ms_surfaces.sad.
 | .smp | Contains multiple MP3 files seperated by `MSF MSF` / `4D 53 46 20 4D 53 46`.
