@@ -1,5 +1,5 @@
 # Required Databases
-The game will not boot without the following databases.
+The game will not boot without the following databases. (Found in /data/databases/ within the PSARC)
 - boost.xml
 - damagedefs.xml
 - music.csv
