@@ -49,7 +49,7 @@
 | .spvs | Related to levels.
 | .stp | Plaintext, defines start points in a track.
 | .ticket | Renamed XML related to events.
-| .trg | Plaintext, defines trigger boxes in a track.
+| .trg | Plaintext, defines shadowbounds-triggerboxes in a track.
 | .trophy | Plaintext, related to trophies.
 | .vfl | Related to levels.
 | .vsb | Contains information on how to play sounds (e.g. pitch data). Not a VSampler SoundBank file; can’t be opened by any programs that can open real VSBs.<br><br>**Magic:**<br>`56 53 42 20 00 00 00 05`<br>`VSB ....`
