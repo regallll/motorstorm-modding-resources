@@ -17,6 +17,9 @@
 - [ProDG Target Manager and Debugger](http://www.mediafire.com/file/ov227kvod21am8n/ProDG_v4.20.1.exe/file) - Debugging on PS3. Windows only.
 - [Ghidra](https://ghidra-sre.org) + [Ps3GhidraScripts](https://github.com/clienthax/Ps3GhidraScripts) - Helps to reverse engineer PS3 executables.
 
+## Monument Valley (and certain Pacific Rift builds) only
+- [MSMV-unpacker](https://github.com/Scirvir/MSMV-unpacker) - Unpacks the cache_ps3 format but cannot yet repack.
+
 ## Pacific Rift and Apocalypse only
 - [PSArcTool](https://github.com/periander/PSArcTool) - Extracts and repacks .psarc files on Windows.
 - [PS3GameExtractor](https://mega.nz/file/DeITERiA#WRp5Qrz4jiq32XF8nQR9HoYvI2JagHdx21-M1fodhzM) - If PSArcTool fails, try this. Windows only.
@@ -28,4 +31,4 @@
 ## Arctic Edge only
 - [PPSSPP](https://www.ppsspp.org) - PSP emulator.
 - [PCSX2](https://pcsx2.net) - PS2 emulator.
-- [QuickBMS](http://aluigi.altervista.org/quickbms.htm) + [Acewell's Arctic Edge .PAK Extractor](https://gist.github.com/Scirvir/3fb1bb7286c66014cecd113812682eb9) - Unpacks .PAK files but cannot repack them.
+- [QuickBMS](http://aluigi.altervista.org/quickbms.htm) + [Acewell's Arctic Edge .PAK Extractor](https://gist.github.com/Scirvir/3fb1bb7286c66014cecd113812682eb9) - Unpacks .PAK files but cannot yet repack them.
