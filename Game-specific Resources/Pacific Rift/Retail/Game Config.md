@@ -22,6 +22,8 @@ There are a few different types of game config. These must be specified in the `
 
   </Config>
   ```
+- BRAIN_TRAIN_CONFIG
+- COMMANDLINE_RACE
 - DEVGHOSTCOPIER
 - GUI (Default)
   ```xml
@@ -32,11 +34,16 @@ There are a few different types of game config. These must be specified in the `
 
   </Config>
   ```
+- GUI_FOCUSDAYTESTING
 - MPSTRESS
+- NULL_CONFIG
+- ONLINE_RACE
+- RACE
+- SINGLE_TICKET
+- SOAK_TEST_MONKEY
 - SOAK_TEST_ONLINE_HOST
 - SOAK_TEST_RANDOM
 - SOAK_TEST_REPEAT
 - SOAK_TEST_SEQUENTIAL
+- SOAK_TEST_SIMULATE_HUMAN
 - SOAK_TEST_SPLIT_SCREEN
-
-The Includes section of the game config doesn't do anything.
