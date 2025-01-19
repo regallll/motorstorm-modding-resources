@@ -18,10 +18,10 @@
 - [Ghidra](https://ghidra-sre.org) + [Ps3GhidraScripts](https://github.com/clienthax/Ps3GhidraScripts) - Helps to reverse engineer PS3 executables.
 
 ## Monument Valley (and certain Pacific Rift builds) only
-- [MSMV-unpacker](https://github.com/Scirvir/MSMV-unpacker) - Unpacks the cache_ps3 format but cannot yet repack.
+- [MSMV-unpacker](https://github.com/Scirvir/MSMV-unpacker) - Unpacks and repacks the cache_ps3 format.
 
 ## Pacific Rift and Apocalypse only
-- [PSArcTool](https://github.com/periander/PSArcTool) - Extracts and repacks .psarc files on Windows.
+- [PSArcTool](https://github.com/periander/PSArcTool) - Unpacks and repacks .psarc files on Windows.
 - [PS3GameExtractor](https://mega.nz/file/DeITERiA#WRp5Qrz4jiq32XF8nQR9HoYvI2JagHdx21-M1fodhzM) - If PSArcTool fails, try this. Windows only.
 - [Sony SDK's PSARC Tool](https://disk.yandex.ru/d/iK9rk8jXieqLdw?ncrnd=3684) can be used as a fallback. `psarc.exe -h` for help. Again, Windows only.
 
