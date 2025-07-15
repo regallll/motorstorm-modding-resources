@@ -6,7 +6,7 @@
 - [RenderDoc](https://renderdoc.org/) - Graphics debugging on Windows and Linux. Can be used in conjunction with an emulator to rip textures.
 - [010 Editor](https://www.sweetscape.com) - Hex editing.
   - [ImHex](https://imhex.werwolv.net/) is a good free alternative.
-- [Raw texture previewer/converter](https://forum.xentax.com/viewtopic.php?t=16461) - Calculates headers from raw DDS data to make them easily viewable. Windows only.
+- [Raw texture previewer/converter](https://web.archive.org/web/20230406075427fw_/https://zenhax.com/download/file.php?id=13219) - Calculates headers from raw DDS data to make them easily viewable. Windows only.
 - [Compressonator](https://gpuopen.com/compressonator/) - useful DDS tools for Windows and Linux including the ability to inspect and modify metadata.
 
 ## PS3 games only
