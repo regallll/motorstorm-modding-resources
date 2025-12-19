@@ -818,10 +818,10 @@ large_woodshardsection\
 large_woodshardsection1\
 largechunks\
 largechunks1\
-lava\-steam3
+lava\-steam3\
 lava_darkfire\
 lava_smoke_caldera_distant\
-lava_smoke_no\-nmap
+lava_smoke_no\-nmap\
 lava_steam\
 lava_steam_bg\
 lava_steam_bg1\
