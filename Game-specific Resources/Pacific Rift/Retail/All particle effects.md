@@ -153,15 +153,11 @@ bodysplash2\
 bog\
 bogmist\
 bolt3d\
-boost\
-boost1\
 boost2\
 boost4\
 boost6\
 boost7\
 boost9\
-boost21\
-boost622\
 boost_1\
 boost_2\
 boost_3\
@@ -642,11 +638,6 @@ fueldump\
 g_bits\
 g_bits1\
 g_bits2\
-gasboost\
-gasboost2\
-gasboost3\
-gasboost5\
-gasboost21\
 gateflare\
 gateflare2\
 gateflare3\
