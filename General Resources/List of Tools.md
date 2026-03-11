@@ -20,14 +20,17 @@
 ## Monument Valley (and certain Pacific Rift builds) only
 - [MSMV-unpacker](https://github.com/Scirvir/MSMV-unpacker) - Unpacks and repacks the cache_ps3 format.
 
+## Pacific Rift only
+- [RAD Video Tools](http://www.radgametools.com/bnkdown.htm) - Converts to and from the Bink Video .bik format. Windows only.
+
 ## Pacific Rift and Apocalypse only
 - [PSArcTool](https://github.com/periander/PSArcTool) - Unpacks and repacks .psarc files on Windows.
 - [PSASBR Tool](https://github.com/Cri4Key/PSASBR-Tool) - If PSArcTool fails, try this. Windows only. As per the instructions, you need Sony SDK's PSARC Tool (psarc.exe) from the link below, and rename it to psp2psarc.exe. You don't need psp2gxt.exe.
 - [PS3GameExtractor](https://mega.nz/file/DeITERiA#WRp5Qrz4jiq32XF8nQR9HoYvI2JagHdx21-M1fodhzM) - If PSASBR Tool fails, try this. Windows only.
 - [Sony SDK's PSARC Tool](https://disk.yandex.ru/d/iK9rk8jXieqLdw?ncrnd=3684) can be used as a fallback. `psarc.exe -h` for help. Again, Windows only.
 
-## Pacific Rift only
-- [RAD Video Tools](http://www.radgametools.com/bnkdown.htm) - Converts to and from the Bink Video .bik format. Windows only.
+## Apocalypse only
+- [gtf extractor and gtf2dds](https://mega.nz/file/rOR0SSoJ#zUaaMaUnl8xr5MvZPAxIY7tsWgRR84KcG-6Q4YQERMk) - Converts .gtf files on Windows.
 
 ## Arctic Edge only
 - [PPSSPP](https://www.ppsspp.org) - PSP emulator.
